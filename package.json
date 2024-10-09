@@ -1,0 +1,33 @@
+{
+  "name": "fastify",
+  "version": "1.0.0",
+  "description": "This project was bootstrapped with Fastify-CLI.",
+  "scripts": {
+    "start": "node --trace-warnings src/index.js",
+    "dev": "nodemon --trace-warnings src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/autoload": "^6.0.0",
+    "@fastify/sensible": "^6.0.0",
+    "@fastify/static": "^8.0.1",
+    "@fastify/swagger": "^9.1.0",
+    "@fastify/swagger-ui": "^5.0.1",
+    "crypto-js": "^4.2.0",
+    "dotenv": "^16.4.5",
+    "fastify": "^5.0.0",
+    "fastify-cli": "^7.0.1",
+    "fastify-cors": "^6.0.3",
+    "fastify-plugin": "^5.0.0",
+    "fs": "^0.0.1-security",
+    "mysql2": "^3.11.3",
+    "path": "^0.12.7",
+    "qrcode": "^1.5.4",
+    "sequelize": "^6.37.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
